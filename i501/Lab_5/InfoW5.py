@@ -75,7 +75,7 @@ def process_search_term(search_terms):
         df = genius_to_df(search_term, n_results_per_term=n)
         dfs.append(df)
     df_genius = pd.concat(dfs)
-    df_genius.to_csv(f"/Users/ramyaamudapakula/Desktop/Sem1/Intro to Informatics/Projects/I501 labs and pair problems/lab_5/genius_data.csv", index=False)
+    df_genius.to_csv("C:\\Users\\91814\\Desktop\\Informatics-GITstuff\\i501\\Lab_5\\genius_data.csv", index=False)
 
 process_search_term(search_terms)
 
