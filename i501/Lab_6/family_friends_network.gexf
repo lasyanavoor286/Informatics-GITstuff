@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-02-21">
+    <creator>NetworkX 3.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="0" title="relationship" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Mom" label="Mom" />
+      <node id="Me" label="Me" />
+      <node id="Monica" label="Monica" />
+      <node id="Virat" label="Virat" />
+      <node id="Maira" label="Maira" />
+      <node id="Ashwitha" label="Ashwitha" />
+    </nodes>
+    <edges>
+      <edge source="Mom" target="Me" id="0">
+        <attvalues>
+          <attvalue for="0" value="Parent" />
+        </attvalues>
+      </edge>
+      <edge source="Mom" target="Monica" id="1">
+        <attvalues>
+          <attvalue for="0" value="Parent" />
+        </attvalues>
+      </edge>
+      <edge source="Mom" target="Virat" id="2">
+        <attvalues>
+          <attvalue for="0" value="Grandparent" />
+        </attvalues>
+      </edge>
+      <edge source="Mom" target="Maira" id="3">
+        <attvalues>
+          <attvalue for="0" value="Grandparent" />
+        </attvalues>
+      </edge>
+      <edge source="Me" target="Virat" id="4">
+        <attvalues>
+          <attvalue for="0" value="Nephew" />
+        </attvalues>
+      </edge>
+      <edge source="Me" target="Maira" id="5">
+        <attvalues>
+          <attvalue for="0" value="Niece" />
+        </attvalues>
+      </edge>
+      <edge source="Me" target="Ashwitha" id="6">
+        <attvalues>
+          <attvalue for="0" value="Friends" />
+        </attvalues>
+      </edge>
+      <edge source="Monica" target="Me" id="7">
+        <attvalues>
+          <attvalue for="0" value="Sibling" />
+        </attvalues>
+      </edge>
+      <edge source="Monica" target="Virat" id="8">
+        <attvalues>
+          <attvalue for="0" value="Parent" />
+        </attvalues>
+      </edge>
+      <edge source="Monica" target="Maira" id="9">
+        <attvalues>
+          <attvalue for="0" value="Parent" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
